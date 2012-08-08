@@ -1,0 +1,11 @@
+This is a server application for viewing a picture gallery.
+
+1. Create the following directory:
+pictures/
+
+2. Put the pictures you want to view in the pictures dir. Make sure they are
+already at the desired "full size", such as 800x600.
+
+3. Run the build_thumbs command from the pictures directory
+
+4. Go to index.php and you should see all your pictures

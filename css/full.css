@@ -1,0 +1,47 @@
+body {
+    background-color:white;
+    text-align:center;
+    font-family: Corbel, 'Lucida Grande', sans-serif;
+    color: gray;
+}
+
+.picture-container {
+    margin-top:20px;
+    position:relative;
+}
+
+.picture-container p {
+    font-size:0.8em;
+}
+
+.picture-container img {
+    display:table-cell;
+    vertical-align:middle;
+    display:inline;
+    border-color: black;
+    border: solid 1px;
+}
+
+a {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    font-size: 11px;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+ul {
+    padding-left: 0px;
+}

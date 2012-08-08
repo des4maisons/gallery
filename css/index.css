@@ -1,0 +1,74 @@
+body {
+    background-color:white;
+    text-align:center;
+    font-family: Corbel, 'Lucida Grande', sans-serif;
+    color: gray;
+}
+
+#header {
+    width: 100%;
+    top:0px;
+    left:0px;
+}
+
+#pictures {
+    position:relative;
+    left:0px;
+    padding-right:50px;
+    padding-left:50px;
+}
+
+.picture-container {
+    width: 220px;
+    height: 220px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.picture-container1 {
+    float:left;
+    margin:5px;
+    margin-top:20px;
+    background-color: white;
+    text-align:center;
+}
+
+.picture-container .img-container {
+    display:block;
+}
+
+a img {
+    border:solid 1px black;
+}
+
+a {
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.page_navigation li{
+    font-size: 11px;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+
+#bottom {
+    height:100px;
+    float:left;
+    width:100%;
+}

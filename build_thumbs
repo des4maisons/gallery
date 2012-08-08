@@ -1,0 +1,16 @@
+#!/bin/bash
+# usage: ./build_thumbs from the directory full of .jpgs
+
+IFS="`printf "\n\t"`"
+set -eu
+
+thumbdir="thumbs/"
+if [ ! -d "$thumbdir" ]; then
+    mkdir "$thumbdir"
+fi
+
+for file in *.jpg; do
+    echo -n "$file..."
+    convert -resize 250x250 "$file" "$thumbdir/$file"
+    echo " done."
+done
