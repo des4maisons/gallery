@@ -84,11 +84,7 @@ function generate_page_navigation($pictures_per_page, $cur_page) {
     if ($i == $cur_page) {
       $navigation_html .= $i;
     } else {
-      $navigation_html .= '<a href="?page=';
-      $navigation_html .= $i;
-      $navigation_html .= '">';
-      $navigation_html .= $i;
-      $navigation_html .= "</a>";
+      $navigation_html .= "<a href=\"?page=$i\">$i</a>";
     }
 
     $navigation_html .= "</li>";
