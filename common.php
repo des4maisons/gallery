@@ -1,10 +1,4 @@
 <?
-
-if (isset($_GET["secret_admin_mode"])) {
-  setcookie("secret_admin_mode", $_GET["secret_admin_mode"]);
-  $_COOKIE["secret_admin_mode"] = $_GET["secret_admin_mode"];
-}
-
 // comment out the next line if you are using the "remotely hosted
 // pictures" version, below.
 $_all_pictures = glob("pictures/*.jpg");
